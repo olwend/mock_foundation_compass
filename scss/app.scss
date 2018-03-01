@@ -1,6 +1,26 @@
 @import "settings";
 @import "foundation";
 
+.thumb-caption.visit {
+	background-color: rgba(161,22,78,0.9);
+	padding: 0.5em;
+	opacity: 0.9 !important;
+
+	p {
+		color: #fff;
+	}
+}
+
+.thumb-caption.our-science {
+	background-color: rgba(53,121,0,0.95);
+	padding: 0.5em;
+	opacity: 0.9 !important;
+
+	p {
+		color: #fff;
+	}
+}
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
