@@ -4,6 +4,9 @@ To increase knowledge of NHM website, Foundation and SCSS stylesheets.
 main.css (etc/clientlibs/nhmwww/main.css)
 foundation.css (etc/clientlibs/nhmwww/main/foundation.css)
 
+## Compass
+In order to compile the css from scss ```bundle exec compass watch``` 
+
 ## cta-button AEM NHM implementation
 ### Taking as basis and reworking for pure Foundation project
 
