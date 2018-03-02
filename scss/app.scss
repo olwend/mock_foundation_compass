@@ -1,24 +1,56 @@
 @import "settings";
 @import "foundation";
 
-.thumb-caption.visit {
-	background-color: rgba(161,22,78,0.9);
-	padding: 0.5em;
-	opacity: 0.9 !important;
-
-	p {
-		color: #fff;
-	}
+body {
+	background: #fafafa;
+	color: #565656;
 }
 
-.thumb-caption.our-science {
-	background-color: rgba(53,121,0,0.95);
+h3 {
+	font-size: 1.5em;
+	line-height: 1.35em;
 	padding: 0.5em;
+}
+
+.ctabutton--container {
+	position: relative;
+	padding-top: 0;
+}
+
+.ctabutton--image-container {
+		overflow: hidden;
+
+}
+.thumb-caption {
+	max-width: 70%;
+	position: absolute;
+	padding: 1em 1.5em;
 	opacity: 0.9 !important;
+	max-height: 150px;
+	left: 0;
+	bottom: 0;
 
 	p {
 		color: #fff;
+		line-height: 1.3em;
+		margin-bottom: 0;
+		font-size: 0.8rem;
+
+		@media screen and (min-width: 1035px) {
+			font-size: 1.2rem;
+		}
+		@media screen and (min-width: 940px) {
+			font-size: 1rem;
+		}
+
+
 	}
+}
+.thumb-caption.visit {
+	background-color: #A1164E;
+}
+.thumb-caption.our-science {
+	background-color: #357900;
 }
 
 // Or selectively include components
