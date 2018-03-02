@@ -21,7 +21,7 @@ In order to compile the css from scss ```bundle exec compass watch```
 I used https://image.online-convert.com/convert-to-svg to convert jpg to svg, but this is not of required quality.
 This would need sourcing from AEM assets (low priority), so I've continued with jpeg format.
 
-##Styling
+## Styling
 The custom scss is included into app.css write  by ```@import "foundation/components/thumb-caption.scss";``` in app.scss
 Only header font-color and font-size are uncommented in ```_settings.scss``` as this is a minimal implementation.
 
