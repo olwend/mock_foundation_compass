@@ -1,60 +1,94 @@
 @import "settings";
 @import "foundation";
 
-.thumb-caption.visit {
-	background-color: rgba(161,22,78,0.9);
-	padding: 0.5em;
-	opacity: 0.9 !important;
+// body {
+// 	background: #fafafa;
+// 	color: #565656;
+// }
 
-	p {
-		color: #fff;
-	}
-}
+// h3 {
+// 	font-size: 1.5em;
+// 	line-height: 1.35em;
+// 	padding: 0.5em;
+// }
 
-.thumb-caption.our-science {
-	background-color: rgba(53,121,0,0.95);
-	padding: 0.5em;
-	opacity: 0.9 !important;
+// .ctabutton--container {
+// 	position: relative;
+// 	padding-top: 0;
+// }
 
-	p {
-		color: #fff;
-	}
-}
+// .ctabutton--image-container {
+// 		overflow: hidden;
+
+// }
+// .thumb-caption {
+// 	max-width: 70%;
+// 	position: absolute;
+// 	padding: 1em 1.5em;
+// 	opacity: 0.9 !important;
+// 	max-height: 150px;
+// 	left: 0;
+// 	bottom: 0;
+
+// 	p {
+// 		color: #fff;
+// 		line-height: 1.3em;
+// 		margin-bottom: 0;
+// 		font-size: 0.8rem;
+
+// 		@media screen and (min-width: 1035px) {
+// 			font-size: 1.2rem;
+// 		}
+// 		@media screen and (min-width: 940px) {
+// 			font-size: 1rem;
+// 		}
+
+
+// 	}
+// }
+// .thumb-caption.visit {
+// 	background-color: #A1164E;
+// }
+// .thumb-caption.our-science {
+// 	background-color: #357900;
+// }
 
 // Or selectively include components
+@import "foundation/components/thumb-caption.scss";
+
 // @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switches",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
+  // "foundation/components/accordion",
+  // "foundation/components/alert-boxes",
+  // "foundation/components/block-grid",
+  // "foundation/components/breadcrumbs",
+  // "foundation/components/button-groups",
+  // "foundation/components/buttons",
+  // "foundation/components/clearing",
+  // "foundation/components/dropdown",
+  // "foundation/components/dropdown-buttons",
+  // "foundation/components/flex-video",
+  // "foundation/components/forms",
+  // "foundation/components/grid",
+  // "foundation/components/inline-lists",
+  // "foundation/components/joyride",
+  // "foundation/components/keystrokes",
+  // "foundation/components/labels",
+  // "foundation/components/magellan",
+  // "foundation/components/orbit",
+  // "foundation/components/pagination",
+  // "foundation/components/panels",
+  // "foundation/components/pricing-tables",
+  // "foundation/components/progress-bars",
+  // "foundation/components/reveal",
+  // "foundation/components/side-nav",
+  // "foundation/components/split-buttons",
+  // "foundation/components/sub-nav",
+  // "foundation/components/switches",
+  // "foundation/components/tables",
+  // "foundation/components/tabs",
+  // "foundation/components/thumbs",
+  // "foundation/components/tooltips",
+  // "foundation/components/top-bar",
+  // "foundation/components/type",
+  // "foundation/components/offcanvas",
+  // "foundation/components/visibility";
