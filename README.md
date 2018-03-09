@@ -11,7 +11,7 @@ In order to compile the css from scss ```bundle exec compass watch```
 
 ## cta-button AEM NHM implementation
 	* large-6 medium-6 columns large6-margin
-	* par parsys - N/A this is an AEM requirement
+	* par parsys - N/A this is an AEM requirement called by above
 	* ctabutton parbase section - rename to simplify
 	* N/A image handling with data-interchange (default, retina, small, medium, large)
 	* footer thumb-caption  visit and home-thumb-right h3 have margin
@@ -19,13 +19,11 @@ In order to compile the css from scss ```bundle exec compass watch```
 
 ## featured-article
 	* herosection
-	* par2 parsys - N/A this is an AEM requirement
+	* par2 parsys - N/A this is an AEM requirement called by above
 	* featuredarticle parbase section
 	* N/A image handling with data-interchange (default, retina, small, medium, large)
 	* href wraps the component
 	* container - image container - image (data interchange) - row - text container
-
-
 
 
 ## Note
