@@ -1,4 +1,9 @@
-# /bower_components/*
+
+/bower_components/fastclick
+/bower_components/jquery*
+/bower_components/modernizr
+/bower_components/foundation/css
+/bower_components/foundation/js
 /.sass-cache/*
 *.DS_Store
 /stylesheets/*
