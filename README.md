@@ -27,6 +27,10 @@ In order to compile the css from scss ```bundle exec compass watch```
 
 N.B. The image is smaller than required for the text container to sit over it.
 
+## header text images
+	*
+	*
+	*
 
 ## Note
 I used https://image.online-convert.com/convert-to-svg to convert jpg to svg, but this is not of required quality.
