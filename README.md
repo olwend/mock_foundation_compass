@@ -37,7 +37,8 @@ I used https://image.online-convert.com/convert-to-svg to convert jpg to svg, bu
 This would need sourcing from AEM assets (low priority), so I've continued with jpeg format.
 
 ## Styling
-The custom scss is included into app.css write  by ```@import "foundation/components/thumb-caption.scss";``` in app.scss
+The custom scss is included into app.css write  by ```@import "foundation/components/xxxxxx.scss";``` in app.scss
+
 Only header font-color and font-size are uncommented in ```_settings.scss``` as this is a minimal implementation.
 
 

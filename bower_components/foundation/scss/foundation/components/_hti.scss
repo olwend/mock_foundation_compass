@@ -1,0 +1,28 @@
+
+.hti {
+
+	&--text-wrapper {
+		background-color: #eee;
+
+
+		h3 {
+			padding-left: 0;
+			padding-bottom: .3em;
+			color: #565656;
+			font-size: 1.8em;
+			line-height: 1.35em;
+		}
+
+		a {
+			color: #bf491f;
+		}
+
+		p{
+			font-size: 1.125em;
+			margin-bottom: 1.2em;
+			line-height: 1.5em;
+			text-rendering: optimizeLegibility;
+		}
+
+	}
+}
