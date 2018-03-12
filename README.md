@@ -25,6 +25,8 @@ In order to compile the css from scss ```bundle exec compass watch```
 	* href wraps the component
 	* container - image container - image (data interchange) - row - text container
 
+N.B. The image is smaller than required for the text container to sit over it.
+
 
 ## Note
 I used https://image.online-convert.com/convert-to-svg to convert jpg to svg, but this is not of required quality.
