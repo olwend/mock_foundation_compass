@@ -1,20 +1,29 @@
+// .hti-wrapper {
+
+// }
+
+
+
+
 
 .hti {
 
 	&--text-wrapper {
 		background-color: #eee;
+		padding: 1em 1.5em;
 
 
 		h3 {
 			padding-left: 0;
 			padding-bottom: .3em;
 			color: #565656;
-			font-size: 1.8em;
+			font-size: 1.5em;
 			line-height: 1.35em;
 		}
 
 		a {
 			color: #bf491f;
+			// font-size: 1.6em;
 		}
 
 		p{
@@ -25,4 +34,9 @@
 		}
 
 	}
+
+	&--image-wrapper {
+
+	}
+
 }
