@@ -1,16 +1,13 @@
-// .hti-wrapper {
-
-// }
-
-
-
-
+.hti-wrapper {
+	// position: relative;
+}
 
 .hti {
 
 	&--text-wrapper {
 		background-color: #eee;
 		padding: 1em 1.5em;
+		// position: absolute;
 
 
 		h3 {
@@ -36,6 +33,7 @@
 	}
 
 	&--image-wrapper {
+		// position: absolute;
 
 	}
 
