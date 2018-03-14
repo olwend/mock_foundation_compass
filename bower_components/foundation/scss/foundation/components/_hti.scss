@@ -1,0 +1,56 @@
+.hti-wrapper {
+}
+
+.hti {
+
+	&--text-wrapper {
+		background-color: #eee;
+		padding: 1em 1.5em;
+		display: table;
+		margin: 0;
+		@media screen and (min-width:768px) {
+			padding: 0.5em 0.75em;
+		}
+
+
+
+
+		h3 {
+			padding-left: 0;
+			padding-bottom: .3em;
+			color: #565656;
+			font-size: 1.5em;
+			line-height: 1.35em;
+		}
+
+		a {
+			color: #bf491f;
+			// font-size: 1.6em;
+		}
+
+		p{
+			font-size: 1.125em;
+			margin-bottom: 1.2em;
+			line-height: 1.5em;
+			text-rendering: optimizeLegibility;
+		}
+	}
+
+	&--image-wrapper {
+		// position: absolute;
+		padding-left: 0;
+	}
+
+
+.hti--text-wrapper:hover h3 {
+			text-decoration: underline;
+		}
+
+.row2cells21 {
+	width: 100%;
+	@media screen and (min-width:768px) {
+		width: 65.7%;
+	}
+}
+}
+

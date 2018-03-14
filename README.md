@@ -28,13 +28,18 @@ In order to compile the css from scss ```bundle exec compass watch```
 
 N.B. The image is smaller than required for the text container to sit over it.
 
+## header text images
+	*
+	*
+	*
 
 ## Note
 I used https://image.online-convert.com/convert-to-svg to convert jpg to svg, but this is not of required quality.
 This would need sourcing from AEM assets (low priority), so I've continued with jpeg format.
 
 ## Styling
-The custom scss is included into app.css write  by ```@import "foundation/components/thumb-caption.scss";``` in app.scss
+The custom scss is included into app.css write  by ```@import "foundation/components/xxxxxx.scss";``` in app.scss
+
 Only header font-color and font-size are uncommented in ```_settings.scss``` as this is a minimal implementation.
 
 
