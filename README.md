@@ -1,4 +1,6 @@
 # Foundation Mock Component
+
+
 ## Taking live NHM website as basis and reworking for pure Foundation local project
 
 To increase knowledge of NHM website, Foundation and SCSS stylesheets.
@@ -7,7 +9,6 @@ foundation.css (etc/clientlibs/nhmwww/main/foundation.css)
 
 ## Compass
 In order to compile the css from scss ```bundle exec compass watch```
-
 
 ## cta-button AEM NHM implementation
 	* large-6 medium-6 columns large6-margin
