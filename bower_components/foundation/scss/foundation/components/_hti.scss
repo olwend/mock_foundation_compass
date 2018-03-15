@@ -6,10 +6,11 @@
 	&--text-wrapper {
 		background-color: #eee;
 		padding: 1em 1.5em;
+		max-height: auto;
 		display: table;
 		margin: 0;
 		@media screen and (min-width:768px) {
-			padding: 0.5em 0.75em;
+		padding: 0.5em 0.75em;
 		}
 
 		h3 {
@@ -36,6 +37,12 @@
 	&--image-wrapper {
 		// position: absolute;
 		padding-left: 0;
+		max-height: auto;
+
+		img {
+			display: inline-block;
+			// vertical-align: middle;
+		}
 	}
 
 
