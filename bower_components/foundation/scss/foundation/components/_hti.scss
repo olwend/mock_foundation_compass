@@ -6,14 +6,12 @@
 	&--text-wrapper {
 		background-color: #eee;
 		padding: 1em 1.5em;
+		max-height: auto;
 		display: table;
 		margin: 0;
 		@media screen and (min-width:768px) {
-			padding: 0.5em 0.75em;
+		padding: 0.5em 0.75em;
 		}
-
-
-
 
 		h3 {
 			padding-left: 0;
@@ -39,12 +37,38 @@
 	&--image-wrapper {
 		// position: absolute;
 		padding-left: 0;
+		max-height: auto;
+
+		img {
+			display: inline-block;
+			// vertical-align: middle;
+		}
 	}
 
 
 .hti--text-wrapper:hover h3 {
 			text-decoration: underline;
 		}
+
+.hti-visit--text-wrapper {
+		background-color:  #a1164e;
+
+		h3 {
+			color: #fff;
+			font-size: 1.5em;
+		}
+
+		a {
+			color: #fff;
+		}
+
+		p {
+			font-size: 1.125em;
+			margin-bottom: 1.2em;
+			line-height: 1.5em;
+			text-rendering: optimizeLegibility;
+		}
+}
 
 .row2cells21 {
 	width: 100%;
